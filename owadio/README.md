@@ -1,6 +1,6 @@
 
 # owadio
-#### Video Demo:  <URL HERE>
+#### Video Demo: (https://youtu.be/4kqnvZjhEHE)
 #### Description: an app for ios that tracks the number of days left in one's national service journey. 
 
 owadio is an app made for ios 16 and later for iphone and ipad. It is coded using swift and swiftui on xcode. The main function of this app is to track the number of days remaining during a user's national service. In Singapore, all men aged above 18 are required to enlist in mandatory national service for 2 years. Since this journey is shared across many, and is a common experience, i made this app to help users keep track of their service period and help them look forward to the end of their service journey and their next chapter of life.
