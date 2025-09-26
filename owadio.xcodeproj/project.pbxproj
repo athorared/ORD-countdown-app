@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68203B142CEBEFCC00A1706A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203B132CEBEFC400A1706A /* CalendarView.swift */; };
+		68203B162CF11D5800A1706A /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68203B152CF11D5300A1706A /* ConfettiView.swift */; };
+		68203B222CF1262000A1706A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 68203B212CF1261A00A1706A /* README.md */; };
+		685E4DC82C824F4800F0EBA9 /* owadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DC72C824F4800F0EBA9 /* owadioApp.swift */; };
+		685E4DCA2C824F4800F0EBA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DC92C824F4800F0EBA9 /* ContentView.swift */; };
+		685E4DCC2C824F4800F0EBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685E4DCB2C824F4800F0EBA9 /* Assets.xcassets */; };
+		685E4DCF2C824F4800F0EBA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685E4DCE2C824F4800F0EBA9 /* Preview Assets.xcassets */; };
+		685E4DD92C824F4900F0EBA9 /* owadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DD82C824F4900F0EBA9 /* owadioTests.swift */; };
+		685E4DE32C824F4900F0EBA9 /* owadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DE22C824F4900F0EBA9 /* owadioUITests.swift */; };
+		685E4DE52C824F4900F0EBA9 /* owadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DE42C824F4900F0EBA9 /* owadioUITestsLaunchTests.swift */; };
+		685E4DF42C82519A00F0EBA9 /* CountdownProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DF32C82519A00F0EBA9 /* CountdownProgress.swift */; };
+		685E4DF62C8258FB00F0EBA9 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DF52C8258FB00F0EBA9 /* Homepage.swift */; };
+		685E4DF82C825CDD00F0EBA9 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DF72C825CDD00F0EBA9 /* UserForm.swift */; };
+		685E4DFA2C8764DA00F0EBA9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DF92C8764DA00F0EBA9 /* Settings.swift */; };
+		685E4DFC2C8CD2BF00F0EBA9 /* todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 685E4DFB2C8CD2BF00F0EBA9 /* todo.txt */; };
+		685E4DFE2C8CD89900F0EBA9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685E4DFD2C8CD89900F0EBA9 /* ModelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		685E4DD52C824F4900F0EBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685E4DBC2C824F4700F0EBA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685E4DC32C824F4800F0EBA9;
+			remoteInfo = owadio;
+		};
+		685E4DDF2C824F4900F0EBA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 685E4DBC2C824F4700F0EBA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685E4DC32C824F4800F0EBA9;
+			remoteInfo = owadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68203B132CEBEFC400A1706A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		68203B152CF11D5300A1706A /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		68203B212CF1261A00A1706A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		685E4DC42C824F4800F0EBA9 /* owadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = owadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E4DC72C824F4800F0EBA9 /* owadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owadioApp.swift; sourceTree = "<group>"; };
+		685E4DC92C824F4800F0EBA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		685E4DCB2C824F4800F0EBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		685E4DCE2C824F4800F0EBA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		685E4DD42C824F4900F0EBA9 /* owadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E4DD82C824F4900F0EBA9 /* owadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owadioTests.swift; sourceTree = "<group>"; };
+		685E4DDE2C824F4900F0EBA9 /* owadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = owadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		685E4DE22C824F4900F0EBA9 /* owadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owadioUITests.swift; sourceTree = "<group>"; };
+		685E4DE42C824F4900F0EBA9 /* owadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = owadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		685E4DF32C82519A00F0EBA9 /* CountdownProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownProgress.swift; sourceTree = "<group>"; };
+		685E4DF52C8258FB00F0EBA9 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		685E4DF72C825CDD00F0EBA9 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
+		685E4DF92C8764DA00F0EBA9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		685E4DFB2C8CD2BF00F0EBA9 /* todo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = todo.txt; sourceTree = "<group>"; };
+		685E4DFD2C8CD89900F0EBA9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		685E4DC12C824F4800F0EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E4DD12C824F4900F0EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E4DDB2C824F4900F0EBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		685E4DBB2C824F4700F0EBA9 = {
+			isa = PBXGroup;
+			children = (
+				685E4DC62C824F4800F0EBA9 /* owadio */,
+				685E4DD72C824F4900F0EBA9 /* owadioTests */,
+				685E4DE12C824F4900F0EBA9 /* owadioUITests */,
+				685E4DC52C824F4800F0EBA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		685E4DC52C824F4800F0EBA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DC42C824F4800F0EBA9 /* owadio.app */,
+				685E4DD42C824F4900F0EBA9 /* owadioTests.xctest */,
+				685E4DDE2C824F4900F0EBA9 /* owadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		685E4DC62C824F4800F0EBA9 /* owadio */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DCB2C824F4800F0EBA9 /* Assets.xcassets */,
+				685E4DC72C824F4800F0EBA9 /* owadioApp.swift */,
+				685E4DC92C824F4800F0EBA9 /* ContentView.swift */,
+				68203B212CF1261A00A1706A /* README.md */,
+				685E4DF22C824FF900F0EBA9 /* Models */,
+				685E4DF12C824FAF00F0EBA9 /* Views */,
+				685E4DCD2C824F4800F0EBA9 /* Preview Content */,
+			);
+			path = owadio;
+			sourceTree = "<group>";
+		};
+		685E4DCD2C824F4800F0EBA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DCE2C824F4800F0EBA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		685E4DD72C824F4900F0EBA9 /* owadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DD82C824F4900F0EBA9 /* owadioTests.swift */,
+			);
+			path = owadioTests;
+			sourceTree = "<group>";
+		};
+		685E4DE12C824F4900F0EBA9 /* owadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DE22C824F4900F0EBA9 /* owadioUITests.swift */,
+				685E4DE42C824F4900F0EBA9 /* owadioUITestsLaunchTests.swift */,
+			);
+			path = owadioUITests;
+			sourceTree = "<group>";
+		};
+		685E4DF12C824FAF00F0EBA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DF52C8258FB00F0EBA9 /* Homepage.swift */,
+				68203B132CEBEFC400A1706A /* CalendarView.swift */,
+				685E4DF32C82519A00F0EBA9 /* CountdownProgress.swift */,
+				68203B152CF11D5300A1706A /* ConfettiView.swift */,
+				685E4DF72C825CDD00F0EBA9 /* UserForm.swift */,
+				685E4DFB2C8CD2BF00F0EBA9 /* todo.txt */,
+				685E4DF92C8764DA00F0EBA9 /* Settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		685E4DF22C824FF900F0EBA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				685E4DFD2C8CD89900F0EBA9 /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		685E4DC32C824F4800F0EBA9 /* owadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685E4DE82C824F4900F0EBA9 /* Build configuration list for PBXNativeTarget "owadio" */;
+			buildPhases = (
+				685E4DC02C824F4800F0EBA9 /* Sources */,
+				685E4DC12C824F4800F0EBA9 /* Frameworks */,
+				685E4DC22C824F4800F0EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = owadio;
+			productName = owadio;
+			productReference = 685E4DC42C824F4800F0EBA9 /* owadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		685E4DD32C824F4900F0EBA9 /* owadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685E4DEB2C824F4900F0EBA9 /* Build configuration list for PBXNativeTarget "owadioTests" */;
+			buildPhases = (
+				685E4DD02C824F4900F0EBA9 /* Sources */,
+				685E4DD12C824F4900F0EBA9 /* Frameworks */,
+				685E4DD22C824F4900F0EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685E4DD62C824F4900F0EBA9 /* PBXTargetDependency */,
+			);
+			name = owadioTests;
+			productName = owadioTests;
+			productReference = 685E4DD42C824F4900F0EBA9 /* owadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		685E4DDD2C824F4900F0EBA9 /* owadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685E4DEE2C824F4900F0EBA9 /* Build configuration list for PBXNativeTarget "owadioUITests" */;
+			buildPhases = (
+				685E4DDA2C824F4900F0EBA9 /* Sources */,
+				685E4DDB2C824F4900F0EBA9 /* Frameworks */,
+				685E4DDC2C824F4900F0EBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				685E4DE02C824F4900F0EBA9 /* PBXTargetDependency */,
+			);
+			name = owadioUITests;
+			productName = owadioUITests;
+			productReference = 685E4DDE2C824F4900F0EBA9 /* owadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		685E4DBC2C824F4700F0EBA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					685E4DC32C824F4800F0EBA9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					685E4DD32C824F4900F0EBA9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 685E4DC32C824F4800F0EBA9;
+					};
+					685E4DDD2C824F4900F0EBA9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 685E4DC32C824F4800F0EBA9;
+					};
+				};
+			};
+			buildConfigurationList = 685E4DBF2C824F4700F0EBA9 /* Build configuration list for PBXProject "owadio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 685E4DBB2C824F4700F0EBA9;
+			productRefGroup = 685E4DC52C824F4800F0EBA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685E4DC32C824F4800F0EBA9 /* owadio */,
+				685E4DD32C824F4900F0EBA9 /* owadioTests */,
+				685E4DDD2C824F4900F0EBA9 /* owadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		685E4DC22C824F4800F0EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E4DCF2C824F4800F0EBA9 /* Preview Assets.xcassets in Resources */,
+				68203B222CF1262000A1706A /* README.md in Resources */,
+				685E4DFC2C8CD2BF00F0EBA9 /* todo.txt in Resources */,
+				685E4DCC2C824F4800F0EBA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E4DD22C824F4900F0EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E4DDC2C824F4900F0EBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		685E4DC02C824F4800F0EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E4DFA2C8764DA00F0EBA9 /* Settings.swift in Sources */,
+				685E4DF42C82519A00F0EBA9 /* CountdownProgress.swift in Sources */,
+				685E4DCA2C824F4800F0EBA9 /* ContentView.swift in Sources */,
+				685E4DF82C825CDD00F0EBA9 /* UserForm.swift in Sources */,
+				68203B142CEBEFCC00A1706A /* CalendarView.swift in Sources */,
+				685E4DC82C824F4800F0EBA9 /* owadioApp.swift in Sources */,
+				68203B162CF11D5800A1706A /* ConfettiView.swift in Sources */,
+				685E4DF62C8258FB00F0EBA9 /* Homepage.swift in Sources */,
+				685E4DFE2C8CD89900F0EBA9 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E4DD02C824F4900F0EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E4DD92C824F4900F0EBA9 /* owadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685E4DDA2C824F4900F0EBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685E4DE32C824F4900F0EBA9 /* owadioUITests.swift in Sources */,
+				685E4DE52C824F4900F0EBA9 /* owadioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		685E4DD62C824F4900F0EBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685E4DC32C824F4800F0EBA9 /* owadio */;
+			targetProxy = 685E4DD52C824F4900F0EBA9 /* PBXContainerItemProxy */;
+		};
+		685E4DE02C824F4900F0EBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 685E4DC32C824F4800F0EBA9 /* owadio */;
+			targetProxy = 685E4DDF2C824F4900F0EBA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		685E4DE62C824F4900F0EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		685E4DE72C824F4900F0EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		685E4DE92C824F4900F0EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"owadio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "athora-holdings.owadio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		685E4DEA2C824F4900F0EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"owadio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "athora-holdings.owadio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		685E4DEC2C824F4900F0EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "athora-holdings.owadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/owadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/owadio";
+			};
+			name = Debug;
+		};
+		685E4DED2C824F4900F0EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "athora-holdings.owadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/owadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/owadio";
+			};
+			name = Release;
+		};
+		685E4DEF2C824F4900F0EBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "athora-holdings.owadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = owadio;
+			};
+			name = Debug;
+		};
+		685E4DF02C824F4900F0EBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "athora-holdings.owadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = owadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		685E4DBF2C824F4700F0EBA9 /* Build configuration list for PBXProject "owadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E4DE62C824F4900F0EBA9 /* Debug */,
+				685E4DE72C824F4900F0EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685E4DE82C824F4900F0EBA9 /* Build configuration list for PBXNativeTarget "owadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E4DE92C824F4900F0EBA9 /* Debug */,
+				685E4DEA2C824F4900F0EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685E4DEB2C824F4900F0EBA9 /* Build configuration list for PBXNativeTarget "owadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E4DEC2C824F4900F0EBA9 /* Debug */,
+				685E4DED2C824F4900F0EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685E4DEE2C824F4900F0EBA9 /* Build configuration list for PBXNativeTarget "owadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				685E4DEF2C824F4900F0EBA9 /* Debug */,
+				685E4DF02C824F4900F0EBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 685E4DBC2C824F4700F0EBA9 /* Project object */;
+}
